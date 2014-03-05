@@ -1,0 +1,2 @@
+GUEST_C/asd.c: In function ‘main’:
+GUEST_C/asd.c:2:1: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]

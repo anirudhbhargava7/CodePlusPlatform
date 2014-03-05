@@ -1,0 +1,13 @@
+C.java:11: package pack does not exist
+pack.A a=new pack.A(4);
+    ^
+C.java:11: package pack does not exist
+pack.A a=new pack.A(4);
+                 ^
+C.java:15: package pack does not exist
+pack.B b=new pack.B(5);
+    ^
+C.java:15: package pack does not exist
+pack.B b=new pack.B(5);
+                 ^
+4 errors

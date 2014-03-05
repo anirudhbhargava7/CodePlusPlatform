@@ -1,0 +1,16 @@
+<?php 
+session_start();
+$_SESSION['name']=$_POST['pack'];
+?>
+<html>
+<head>
+<title>PHP File Upload Example</title>
+</head>
+<body>
+<form enctype="multipart/form-data" method="post" action="file-upload.php">
+<input type="hidden" name="pack" value="<?php echo $_SESSION['name'];?>"/>
+<input type="file" name="fileToUpload" /><br />
+<input type="submit" value="Upload File" />
+</form>
+</body>
+</html>

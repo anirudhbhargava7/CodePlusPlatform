@@ -1,0 +1,24 @@
+C.java:1: package pack.back.sack does not exist
+import pack.back.sack.*;
+^
+C.java:5: cannot find symbol
+symbol  : class A
+location: class C
+A a=new A(4);
+^
+C.java:5: cannot find symbol
+symbol  : class A
+location: class C
+A a=new A(4);
+        ^
+C.java:6: cannot find symbol
+symbol  : class B
+location: class C
+B b=new B(5);
+^
+C.java:6: cannot find symbol
+symbol  : class B
+location: class C
+B b=new B(5);
+        ^
+5 errors

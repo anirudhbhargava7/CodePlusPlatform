@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* Reset browser defaults */
+body, div, ul, li, table, fieldset, form, label {
+	border: none;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+
+/* Page styles and classes */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000;
+	height: 100%;
+	width: 100%;
+}
+#container {
+	 height: 300px;	 
+	 width: 400px;
+}
+#photo-wrapper {
+	position: absolute;
+	width: 375px;
+	height: 350px;
+	background-color: #000;
+	border: 5px solid #000;
+	top: 562px;
+	left: 422px;
+
+}
+#transition-container {
+	width: 600px;
+	height: 450px;		
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+#previous-btn {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	cursor: pointer;
+}
+#next-btn {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	cursor: pointer;
+}
+.image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
